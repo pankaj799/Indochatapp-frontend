@@ -1,0 +1,32 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 20%;
+    justify-content: space-between;
+
+}
+
+.activeContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.activeItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    border: 2px solid cornflowerblue;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+        display: none;
+    }
+}
